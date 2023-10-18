@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div colors</title>
+   
+    <style>
+      *{
+        margin:0px;
+        padding:0px;
+        background-color: white;
+      }
+      .box{
+    height:200px;
+    width:200px;
+    background-color: rgb(228, 206, 59);
+    position: absolute;
+    left:200px;
+  
+      }
+
+      .box2{
+    height:200px;
+    width:200px;
+    background-color:rgb(237, 52, 31);
+    position: relative;
+    
+      }
+
+      .box3{
+    height:200px;
+    width:200px;
+    background-color: rgb(155, 227, 21);
+  
+      }
+      .box4{
+    height:200px;
+    width:200px;
+    background-color: rgb(68, 137, 201);
+   position: absolute;
+    left: 200px;
+    top: 200px;
+      }
+
+
+.box2 #inner{
+  background-color: beige;
+  height: 50px;
+  width: 50px;
+}
+ .box2 #grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+
+    </style>
+</head>
+<body>
+ <div class="box">   </div>
+  <div class="box2">
+  <div id="inner">
+   hello
+  </div>
+  <div id="grid-container">
+
+  </div>
+</div>
+ <div class="box3"><a href="https://unsplash.com/"><img src="https://images.unsplash.com/photo-1697104733109-a92cda3560a7?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1974" width="300" height="300"></a></div>
+ <div class="box4"></div>
+
+</body>
+</html>
